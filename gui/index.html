@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self';" />
+    
+       
+    <title>Tid</title>
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body>
+    <div id='tab-bar' class="tab-bar"> </div>    
+    <div id='tab-contents' class="tab-contents">
+      <div class="tab-content" id="Project"></div>
+      <div class="tab-content" id="Characters" style="display:none"></div>
+      <div class="tab-content" id="Event" style="display:none"></div>
+    </div>
+
+
+    <script src="./renderer.js"></script>
+    
+    <div class=footer>
+      <hr>
+      <p>Node.js <span id="node-version"></span></p>
+      <p>Chromium <span id="chrome-version"></span></p>
+      <p>Electron <span id="electron-version"></span></p>
+    </div>
+  </body>
+</html>

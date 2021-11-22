@@ -1,0 +1,87 @@
+
+html, body {
+    background: #FFF3CB;
+    color: black;
+    font-family: Verdana,sans-serif;
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+hr {
+    border:0;
+    border-top:1px solid #000;
+    margin: 20px 0;
+}
+
+br {
+    margin:20px 0;
+}
+
+.footer {
+    font-size: 6pt;
+}
+
+/* Tab style */
+.tab-bar {
+    width:100%;
+    overflow:hidden;
+    display:inline-block;
+    width:auto;
+}
+
+.tab-bar .tab-bar-item {
+    background: #E5DAB6;
+    font-family: inherit;
+    font-size: inherit;    
+    padding:8px 16px;
+    margin: 0px;
+    float:left;
+    width:auto;
+    border:none;
+    display:block;
+    outline:0;
+}
+
+.tab-bar .tab-bar-selected {
+    font-weight: bold;
+}
+
+.tab-contents {
+    height: 300px;
+}
+
+/* -------------------- */
+.buttonField {
+    margin: auto;
+    padding: 4px;
+    float: left;
+    text-align: right;
+    width: 300px;
+           
+}
+
+textarea, input {
+    width: 300px;
+    outline: 0;
+    border: none;
+    background: #FFFADA;
+    resize: none;
+}
+
+button {
+    background: #E5DAB6;
+    font-family: inherit;
+    font-size: inherit;    
+    padding:4px 8px;
+    float: right;
+    margin: 4px;
+    width:auto;
+    border:none;
+    display:block;
+    outline:0;
+}
+
+
+input:disabled {
+    background: #A0A0A0;
+}

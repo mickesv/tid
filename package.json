@@ -1,0 +1,14 @@
+{
+    "name": "tid",
+    "version": "1.0.0",
+    "descroption:": "Timeline tool",
+    "main":"main.js",
+    "author":"Mikael Svahnberg",
+    "license":"MIT",
+    "dependencies": {
+        "vis-timeline": "^7.5.0"
+    },
+    "scripts": {
+        "start": "electron ."
+    }
+}

@@ -1,0 +1,5 @@
+
+* Colours
+http://cosmic-latte.colorcode.is/
+* vis-timeline
+https://visjs.github.io/vis-timeline/docs/timeline/
